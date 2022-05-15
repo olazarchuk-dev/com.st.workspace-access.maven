@@ -6,10 +6,10 @@ import org.springframework.data.mongodb.repository.config.EnableReactiveMongoRep
 
 @SpringBootApplication
 @EnableReactiveMongoRepositories
-public class ReactiveMongoApplication {
+public class WorkspaceAccessApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ReactiveMongoApplication.class, args);
+		SpringApplication.run(WorkspaceAccessApplication.class, args);
 	}
 
 }

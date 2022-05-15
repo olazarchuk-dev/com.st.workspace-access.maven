@@ -1,33 +1,26 @@
-package com.vinsguru.reactivemongo.entity;
+package com.vinsguru.reactivemongo.dto;
 
-import lombok.Builder;
+import com.vinsguru.reactivemongo.entity.Stage;
 import lombok.Data;
-import lombok.ToString;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
-
+import java.time.Instant;
 import java.util.List;
 
 @Data
-@Document(collection = "stage")
-@ToString
-@Builder
-public class WorkspaceStage {
-
-    @Id
+public class StageDTO {
     private String id;
     private Boolean active;
     private String backgroundColor;
-    private Long date;
+    private Instant date;
     private String name;
     private String oldid;
     private String owner;
     private String payload;
+    private Stage.PayloadDecodeObject payloadDecode;
     private Integer revision;
     private String screenshot;
     private Integer layout;
     private List<String> tags;
     private String title;
-    private Long createdAt;
-    private Long updatedAt;
+    private Instant createdAt;
+    private Instant updatedAt;
 }
