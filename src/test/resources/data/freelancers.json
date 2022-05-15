@@ -1,0 +1,37 @@
+[
+  {
+    "name": "sam",
+    "age": 40,
+    "skills": [
+      "js",
+      "react",
+      "python"
+    ]
+  },
+  {
+    "name": "jack",
+    "age": 38,
+    "skills": [
+      "js",
+      "angular",
+      "postgres"
+    ]
+  },
+  {
+    "name": "james",
+    "age": 30,
+    "skills": [
+      "java",
+      "reactor",
+      "mongo"
+    ]
+  },
+  {
+    "name": "smith",
+    "age": 32,
+    "skills": [
+      "qa",
+      "selenium"
+    ]
+  }
+]
